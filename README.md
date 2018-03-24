@@ -1,27 +1,20 @@
-# MasterClassComponent
+# Super workshop of Components
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+ This project is a set of stroybooks which discover all the posibilities that we have in the Angular componets. Each storybook explore the posibilities of one of the 19 attributes that we can configure when we are coding Angular components. 
 
-## Development server
+ The main idea of the workshop is to create work groups of around 6 people. The groups review all the storybooks and check the behavior of the components that is showed there. Each storybook has a set of question that the group should try to answer in order to understand what is happening in the storybook
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Start the workshop
 
-## Code scaffolding
+1- Clone the repository in your local
+2- Install the dependencies with the command 'npm i'
+3- Start the storybook with the command 'npm start'
+4- Access at the storybook with the URL: 'http://localhost:6006'
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Contribute at the project
 
-## Build
+Within the stories folder there is a directory with the name of one of the configuration attributes that are available in Angular Component. These directories should contain a storybook for each of the relevant use cases that the attribute with the same name of the folder provides in a component.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+If you want to contribute to this project, you just have to make an pull request with a story book from one of the empty folders.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+You can follow the example of the encapsulation storybooks.
