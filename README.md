@@ -6,10 +6,10 @@
 
 ## Start the workshop
 
-1- Clone the repository in your local
-2- Install the dependencies with the command 'npm i'
-3- Start the storybook with the command 'npm start'
-4- Access at the storybook with the URL: 'http://localhost:6006'
+1. Clone the repository in your local
+2. Install the dependencies with the command 'npm i'
+3. Start the storybook with the command 'npm start'
+4. Access at the storybook with the URL: 'http://localhost:6006'
 
 ## Contribute at the project
 
