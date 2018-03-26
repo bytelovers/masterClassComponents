@@ -1,0 +1,25 @@
+<h1>Input annotation</h1>
+<h3>
+  The objective of this exercise is to understand how inputs works in Angular.
+</h3>
+<p>There are two types:</p>
+<ul>
+  <li>Stateful components: This kind use property of parent component to be passed.</li>
+  <li>Stateless components: In this kind of components you have to use Input Annotations (@Input())</li>
+</ul>
+
+<div class="color-square">
+  <span>Stateful component: {{ title }}</span>
+  <expl-stateless [title]="title"></expl-stateless>
+</div>
+
+<p>You can redeclare property name fixing a name into Input annotation (ex: <code>@Input('OtherTitle')</code>)</p>
+
+<div class="color-square">
+  <span>Stateful component: {{ title }}</span>
+  <expl-stateless
+    [title]="title"
+    [OtherTitle]="title">
+  </expl-stateless>
+</div>
+
