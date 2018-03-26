@@ -1,0 +1,17 @@
+<h1>Input annotation</h1>
+<h3>
+  The objective of this exercise is to understand how output annotation works in Angular.
+</h3>
+
+<p>This feature, normally is used for emit custom event for parent component distinct from click, change, blur, etc...</p>
+
+<div class="color-square">
+  <span>Parent component</span>
+  <p>Received message: {{ receivedMessage }}</p>
+  <expl-child
+    [messageText]="messageText"
+    (sendMessage)="showMessage($event)">
+  </expl-child>
+</div>
+
+
