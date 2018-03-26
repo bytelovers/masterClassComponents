@@ -1,0 +1,28 @@
+<h1>Overriding styles</h1>
+<h3>
+    The objective of this exercise is to understand how affects the inclusion of styles in a component.
+</h3>
+<p>
+    When you put styles within component decorator, you don't insert any stylesheets in "styleUrls" array property because the compiler crashes.
+</p>
+
+<p>
+     On the other hand, you can push a lot of CSS files in the styleUrls property that application is how you include the path in the list. <br />
+     For example, if you put two files with a same CSS rule it will be apply the last CSS rule, that is the last CSS file in the array list.
+</p>
+
+<p>The order of application is (from general to partcular):</p>
+<ul>
+    <li>|- Styles in CSS file. if exists more than one CSS stylesheet, it apply the last rule in the last CSS file.</li>
+    <li>|--- Styles with a STYLE tag within html template</li>
+    <li>|------Inline styles</li>
+</ul>
+
+<div class="box bg-override-style">
+    container box
+    <expl-override-child></expl-override-child>
+</div>
+
+<p>
+    All of components are isolated by default and stay into shadow DOM. if you want to modify this, you can change <a href="/?selectedKind=Encapsulation&selectedStory=Default%20Encapsulation&full=0&addons=1&stories=1&panelRight=0&addonPanel=storybook%2Factions%2Factions-panel">Encapsulation mode</a>.
+</p>
