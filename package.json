@@ -31,9 +31,16 @@
     "@angular/cli": "~1.7.3",
     "@angular/compiler-cli": "^5.2.0",
     "@angular/language-service": "^5.2.0",
+    "@storybook/addon-actions": "3.4.0-rc.3",
+    "@storybook/addon-knobs": "^3.3.15",
+    "@storybook/addon-links": "3.4.0-rc.3",
+    "@storybook/addon-notes": "3.4.0-rc.3",
+    "@storybook/addons": "3.4.0-rc.3",
+    "@storybook/angular": "3.4.0-rc.3",
     "@types/jasmine": "~2.8.3",
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "~6.0.60",
+    "babel-core": "^6.26.0",
     "codelyzer": "^4.0.1",
     "jasmine-core": "~2.8.0",
     "jasmine-spec-reporter": "~4.2.1",
@@ -45,12 +52,6 @@
     "protractor": "~5.1.2",
     "ts-node": "~4.1.0",
     "tslint": "~5.9.1",
-    "typescript": "~2.5.3",
-    "@storybook/angular": "3.4.0-rc.3",
-    "@storybook/addon-notes": "3.4.0-rc.3",
-    "@storybook/addon-actions": "3.4.0-rc.3",
-    "@storybook/addon-links": "3.4.0-rc.3",
-    "@storybook/addons": "3.4.0-rc.3",
-    "babel-core": "^6.26.0"
+    "typescript": "~2.5.3"
   }
 }
