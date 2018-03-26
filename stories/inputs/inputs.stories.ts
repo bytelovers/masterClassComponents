@@ -1,11 +1,20 @@
 import { storiesOf, moduleMetadata } from '@storybook/angular';
 import { withKnobs, text } from '@storybook/addon-knobs/angular';
 
-import { FatherDefaultComponent } from './default-input/father-default.component';
+import { DefaultInputModule } from "./input.module";
+
+import { DefaultComponent } from './default-input/default.component';
 
 storiesOf('Inputs', module)
+    .addDecorator(
+        moduleMetadata({
+        imports: [DefaultInputModule]
+        })
+    )
     .addDecorator(withKnobs)
     .add('Default', () => ({
-        component: FatherDefaultComponent,
-        props: text('Name input', 'test')
+        component: DefaultComponent,
+        props: {
+            title: text('title', 'test title')
+        }
     }));
